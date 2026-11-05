@@ -59,8 +59,6 @@ hourly_avg <- dbplyr_act |>
   group_by(sex, hour, major_name) |>
   summarize(avg_min = mean(duration_min, na.rm = TRUE), .groups = "drop") |>
   collect()
-
-print(hourly_avg)
 ```
 
 ```{r}
