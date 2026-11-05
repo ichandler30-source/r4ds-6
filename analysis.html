@@ -79,31 +79,13 @@ ul.task-list li input[type="checkbox"] {
 <div class="cell">
 <div class="cell-output cell-output-stderr">
 <pre><code>duckdb keeps downloaded extensions and secrets in a temporary directory:
-ℹ /tmp/RtmpjcVwmj/duckdb
+ℹ /tmp/RtmpHfUfR1/duckdb
 This is removed when the R session ends.
 • Extensions are re-downloaded each session.
 • Secrets are lost.
 ℹ Run duckdb(shared_home = TRUE) (or create ~/.duckdb) to keep them (suitable for most users).
 ℹ Run duckdb(shared_home = FALSE) to accept the temporary directory (and silence this message).
 ℹ See ?duckdb_storage for details and alternatives.</code></pre>
-</div>
-</div>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 144 × 4
-   sex     hour major_name                                  avg_min
-   &lt;chr&gt;  &lt;dbl&gt; &lt;chr&gt;                                         &lt;dbl&gt;
- 1 Female    10 Socializing, Relaxing, and Leisure             94.7
- 2 Female    23 Personal Care Activities                      220. 
- 3 Male       9 Socializing, Relaxing, and Leisure            116. 
- 4 Male      14 Socializing, Relaxing, and Leisure            122. 
- 5 Female     6 Socializing, Relaxing, and Leisure             84.1
- 6 Female    11 Household Activities                           41.5
- 7 Female    18 Household Activities                           31.3
- 8 Female    12 Caring For &amp; Helping Household (HH) Members    36.2
- 9 Female    14 Household Activities                           41.9
-10 Female    15 Socializing, Relaxing, and Leisure             86.1
-# ℹ 134 more rows</code></pre>
 </div>
 </div>
 <div class="cell">
